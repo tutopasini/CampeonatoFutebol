@@ -19,8 +19,6 @@ public class Jogador implements Serializable {
 	@Column
 	private String nome;
 	
-	@ManyToOne
-	@Column
 	private Posicao posicao;
 
 	public Posicao getPosicao() {
