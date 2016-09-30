@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campeonatos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/tuto_/git/CampeonatoFutebol/campeonato.xsd">
+    <campeonato id="1">
+        <nome>Campeonato Brasileiro</nome>
+        <ano>2016</ano>
+        <nroClubes>20</nroClubes>
+    </campeonato>
+    
+    <clube id="1">
+        <nome>Grêmio</nome>
+        <jogador id="1">
+            <nome>Danrlei</nome>
+            <idPosicao>1</idPosicao>
+        </jogador>
+        <jogador id="2">
+            <nome>Jardel</nome>
+            <idPosicao>2</idPosicao>
+        </jogador>
+    </clube>
+    <clube id="2">
+        <nome>Internacional</nome>
+        <jogador id="3">
+            <nome>Fernandão</nome>
+            <idPosicao>2</idPosicao>
+        </jogador>
+    </clube>
+    <clube id="3">
+        <nome>Palmeiras</nome>
+        <jogador id="4">
+            <nome>Zé Roberto</nome>
+            <idPosicao>3</idPosicao>
+        </jogador>
+    </clube>
+    <clube id="4">
+        <nome>Santos</nome>
+        <jogador id="5">
+            <nome>Pelé</nome>
+            <idPosicao>2</idPosicao>
+        </jogador>
+    </clube>
+    
+    <posicao id="1">
+        <nome>Goleiro</nome>
+    </posicao>
+    <posicao id="2">
+        <nome>Atacante</nome>
+    </posicao>
+    <posicao id="3">
+        <nome>Lateral</nome>
+    </posicao>
+    
+    <diretor id="1">
+        <nome>Romildo Bolzan</nome>
+    </diretor>
+    <diretor id="2">
+        <nome>Vitorio Piffero</nome>
+    </diretor>
+    
+    <clubeDiretor idClube="1" idDiretor="1"/>
+    <clubeDiretor idClube="2" idDiretor="2"/>
+    
+    <tecnico id="1">
+        <nome>Renato Portaluppi</nome>
+    </tecnico>
+    <tecnico id="2">
+        <nome>Celso Roth</nome>
+    </tecnico>
+    
+    <clubeTecnico idClube="2" idTecnico="2"/>
+    <clubeTecnico idClube="1" idTecnico="1"/>
+    
+    <torcidaOrganizada id="1">
+        <nome>Geral</nome>
+    </torcidaOrganizada>
+    <torcidaOrganizada id="2">
+        <nome>Guarda Popular</nome>
+    </torcidaOrganizada>
+    
+    <clubeTorcidaOrganizada idClube="1" idTorcidaOrganizada="1"/>
+    <clubeTorcidaOrganizada idClube="2" idTorcidaOrganizada="2"/>
+    
+    <patrocinador id="1">
+        <nome>Umbro</nome>
+    </patrocinador>
+    <patrocinador id="2">
+        <nome>Nike</nome>
+    </patrocinador>
+    <patrocinador id="3">
+        <nome>Banrisul</nome>
+    </patrocinador>
+    
+    <clubePatrocinador idClube="1" idPatrocinador="1"/>
+    <clubePatrocinador idClube="1" idPatrocinador="3"/>
+    <clubePatrocinador idClube="2" idPatrocinador="2"/>
+    <clubePatrocinador idClube="2" idPatrocinador="3"/>
+    
+    <rodadas idCampeonato="1" id="1">
+        <artilheiro>2</artilheiro>
+        <totalJogos>2</totalJogos>
+        <totalAmarelos>9</totalAmarelos>
+        <totalVermelhos>1</totalVermelhos>
+        <totalGols>6</totalGols>
+    </rodadas>
+    <rodadas idCampeonato="1" id="2">
+        <artilheiro>5</artilheiro>
+        <totalJogos>2</totalJogos>
+        <totalAmarelos>6</totalAmarelos>
+        <totalVermelhos>0</totalVermelhos>
+        <totalGols>6</totalGols>
+    </rodadas>
+    
+    
+    <jogos idCampeonato="1" idRodada="1" idClube1="1" idClube2="2">
+        <clube1Gol>5</clube1Gol>
+        <clube2Gol>0</clube2Gol>
+        <clube1Ponto>3</clube1Ponto>
+        <clube2Ponto>0</clube2Ponto>
+        <clube1Amarelo>2</clube1Amarelo>
+        <clube2Amarelo>4</clube2Amarelo>
+        <clube1Vermelho>0</clube1Vermelho>
+        <clube2Vermelho>0</clube2Vermelho>
+    </jogos>
+    <jogos idCampeonato="1" idRodada="1" idClube1="3" idClube2="4">
+        <clube1Gol>1</clube1Gol>
+        <clube2Gol>0</clube2Gol>
+        <clube1Ponto>3</clube1Ponto>
+        <clube2Ponto>0</clube2Ponto>
+        <clube1Amarelo>2</clube1Amarelo>
+        <clube2Amarelo>1</clube2Amarelo>
+        <clube1Vermelho>0</clube1Vermelho>
+        <clube2Vermelho>1</clube2Vermelho>
+    </jogos>
+    <jogos idCampeonato="1" idRodada="2" idClube1="1" idClube2="3">
+        <clube1Gol>1</clube1Gol>
+        <clube2Gol>0</clube2Gol>
+        <clube1Ponto>3</clube1Ponto>
+        <clube2Ponto>0</clube2Ponto>
+        <clube1Amarelo>1</clube1Amarelo>
+        <clube2Amarelo>0</clube2Amarelo>
+        <clube1Vermelho>0</clube1Vermelho>
+        <clube2Vermelho>0</clube2Vermelho>
+    </jogos>
+    <jogos idCampeonato="1" idRodada="2" idClube1="2" idClube2="4">
+        <clube1Gol>0</clube1Gol>
+        <clube2Gol>5</clube2Gol>
+        <clube1Ponto>0</clube1Ponto>
+        <clube2Ponto>3</clube2Ponto>
+        <clube1Amarelo>1</clube1Amarelo>
+        <clube2Amarelo>2</clube2Amarelo>
+        <clube1Vermelho>0</clube1Vermelho>
+        <clube2Vermelho>0</clube2Vermelho>
+    </jogos>
+    
+    <classificacaoRodada idCampeonato="1" idRodada="1" colocacao="1">
+        <idClube>1</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="1" colocacao="2">
+        <idClube>3</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="1" colocacao="3">
+        <idClube>4</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="1" colocacao="4">
+        <idClube>2</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="2" colocacao="1">
+        <idClube>1</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="2" colocacao="2">
+        <idClube>4</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="2" colocacao="3">
+        <idClube>3</idClube>
+    </classificacaoRodada>
+    <classificacaoRodada idCampeonato="1" idRodada="2" colocacao="4">
+        <idClube>2</idClube>
+    </classificacaoRodada>
+    
+    <classificacaoGeral idCampeonato="1" colocacao="1">
+        <idClube>1</idClube>
+    </classificacaoGeral>
+    <classificacaoGeral idCampeonato="1" colocacao="2">
+        <idClube>4</idClube>
+    </classificacaoGeral>
+    <classificacaoGeral idCampeonato="1" colocacao="3">
+        <idClube>3</idClube>
+    </classificacaoGeral>
+    <classificacaoGeral idCampeonato="1" colocacao="4">
+        <idClube>2</idClube>
+    </classificacaoGeral>
+    
+</campeonatos>
