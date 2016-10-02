@@ -1,0 +1,319 @@
+{
+   "campeonatos": {
+      "campeonato": {
+         "nome": "Campeonato Brasileiro",
+         "ano": "2016",
+         "nroClubes": "20",
+         "_id": "1"
+      },
+      "clube": [
+         {
+            "nome": "Grêmio",
+            "jogador": [
+               {
+                  "nome": "Danrlei",
+                  "idPosicao": "1",
+                  "_id": "1"
+               },
+               {
+                  "nome": "Jardel",
+                  "idPosicao": "2",
+                  "_id": "2"
+               }
+            ],
+            "_id": "1"
+         },
+         {
+            "nome": "Internacional",
+            "jogador": [
+               {
+                  "nome": "Fernandão",
+                  "idPosicao": "2",
+                  "_id": "3"
+               }
+            ],
+            "_id": "2"
+         },
+         {
+            "nome": "Palmeiras",
+            "jogador": [
+               {
+                  "nome": "Zé Roberto",
+                  "idPosicao": "3",
+                  "_id": "4"
+               }
+            ],
+            "_id": "3"
+         },
+         {
+            "nome": "Santos",
+            "jogador": [
+               {
+                  "nome": "Pelé",
+                  "idPosicao": "2",
+                  "_id": "5"
+               }
+            ],
+            "_id": "4"
+         }
+      ],
+      "posicao": [
+         {
+            "nome": "Goleiro",
+            "_id": "1"
+         },
+         {
+            "nome": "Atacante",
+            "_id": "2"
+         },
+         {
+            "nome": "Lateral",
+            "_id": "3"
+         }
+      ],
+      "diretor": [
+         {
+            "nome": "Romildo Bolzan",
+            "_id": "1"
+         },
+         {
+            "nome": "Vitorio Piffero",
+            "_id": "2"
+         }
+      ],
+      "clubeDiretor": [
+         {
+            "_idClube": "1",
+            "_idDiretor": "1"
+         },
+         {
+            "_idClube": "2",
+            "_idDiretor": "2"
+         }
+      ],
+      "tecnico": [
+         {
+            "nome": "Renato Portaluppi",
+            "_id": "1"
+         },
+         {
+            "nome": "Celso Roth",
+            "_id": "2"
+         }
+      ],
+      "clubeTecnico": [
+         {
+            "_idClube": "2",
+            "_idTecnico": "2"
+         },
+         {
+            "_idClube": "1",
+            "_idTecnico": "1"
+         }
+      ],
+      "torcidaOrganizada": [
+         {
+            "nome": "Geral",
+            "_id": "1"
+         },
+         {
+            "nome": "Guarda Popular",
+            "_id": "2"
+         }
+      ],
+      "clubeTorcidaOrganizada": [
+         {
+            "_idClube": "1",
+            "_idTorcidaOrganizada": "1"
+         },
+         {
+            "_idClube": "2",
+            "_idTorcidaOrganizada": "2"
+         }
+      ],
+      "patrocinador": [
+         {
+            "nome": "Umbro",
+            "_id": "1"
+         },
+         {
+            "nome": "Nike",
+            "_id": "2"
+         },
+         {
+            "nome": "Banrisul",
+            "_id": "3"
+         }
+      ],
+      "clubePatrocinador": [
+         {
+            "_idClube": "1",
+            "_idPatrocinador": "1"
+         },
+         {
+            "_idClube": "1",
+            "_idPatrocinador": "3"
+         },
+         {
+            "_idClube": "2",
+            "_idPatrocinador": "2"
+         },
+         {
+            "_idClube": "2",
+            "_idPatrocinador": "3"
+         }
+      ],
+      "rodadas": [
+         {
+            "artilheiro": "2",
+            "totalJogos": "2",
+            "totalAmarelos": "9",
+            "totalVermelhos": "1",
+            "totalGols": "6",
+            "_idCampeonato": "1",
+            "_id": "1"
+         },
+         {
+            "artilheiro": "5",
+            "totalJogos": "2",
+            "totalAmarelos": "6",
+            "totalVermelhos": "0",
+            "totalGols": "6",
+            "_idCampeonato": "1",
+            "_id": "2"
+         }
+      ],
+      "jogos": [
+         {
+            "clube1Gol": "5",
+            "clube2Gol": "0",
+            "clube1Ponto": "3",
+            "clube2Ponto": "0",
+            "clube1Amarelo": "2",
+            "clube2Amarelo": "4",
+            "clube1Vermelho": "0",
+            "clube2Vermelho": "0",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_idClube1": "1",
+            "_idClube2": "2"
+         },
+         {
+            "clube1Gol": "1",
+            "clube2Gol": "0",
+            "clube1Ponto": "3",
+            "clube2Ponto": "0",
+            "clube1Amarelo": "2",
+            "clube2Amarelo": "1",
+            "clube1Vermelho": "0",
+            "clube2Vermelho": "1",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_idClube1": "3",
+            "_idClube2": "4"
+         },
+         {
+            "clube1Gol": "1",
+            "clube2Gol": "0",
+            "clube1Ponto": "3",
+            "clube2Ponto": "0",
+            "clube1Amarelo": "1",
+            "clube2Amarelo": "0",
+            "clube1Vermelho": "0",
+            "clube2Vermelho": "0",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_idClube1": "1",
+            "_idClube2": "3"
+         },
+         {
+            "clube1Gol": "0",
+            "clube2Gol": "5",
+            "clube1Ponto": "0",
+            "clube2Ponto": "3",
+            "clube1Amarelo": "1",
+            "clube2Amarelo": "2",
+            "clube1Vermelho": "0",
+            "clube2Vermelho": "0",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_idClube1": "2",
+            "_idClube2": "4"
+         }
+      ],
+      "classificacaoRodada": [
+         {
+            "idClube": "1",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_colocacao": "1"
+         },
+         {
+            "idClube": "3",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_colocacao": "2"
+         },
+         {
+            "idClube": "4",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_colocacao": "3"
+         },
+         {
+            "idClube": "2",
+            "_idCampeonato": "1",
+            "_idRodada": "1",
+            "_colocacao": "4"
+         },
+         {
+            "idClube": "1",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_colocacao": "1"
+         },
+         {
+            "idClube": "4",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_colocacao": "2"
+         },
+         {
+            "idClube": "3",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_colocacao": "3"
+         },
+         {
+            "idClube": "2",
+            "_idCampeonato": "1",
+            "_idRodada": "2",
+            "_colocacao": "4"
+         }
+      ],
+      "classificacaoGeral": [
+         {
+            "idClube": "1",
+            "_idCampeonato": "1",
+            "_colocacao": "1"
+         },
+         {
+            "idClube": "4",
+            "_idCampeonato": "1",
+            "_colocacao": "2"
+         },
+         {
+            "idClube": "3",
+            "_idCampeonato": "1",
+            "_colocacao": "3"
+         },
+         {
+            "idClube": "2",
+            "_idCampeonato": "1",
+            "_colocacao": "4"
+         }
+      ],
+      "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "_xsi:noNamespaceSchemaLocation": "file:/C:/Users/tuto_/git/CampeonatoFutebol/campeonato.xsd"
+   }
+}
