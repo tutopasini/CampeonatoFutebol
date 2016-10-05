@@ -14,6 +14,7 @@ public class Campeonato implements Serializable {
 	@GeneratedValue
 	private long id;
 	private String nome;
+	private int ano;
 	private int nroClubes;
 	
 }
